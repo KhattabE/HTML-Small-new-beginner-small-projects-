@@ -94,6 +94,80 @@
             </a>
         </div>
 
+        <div>
+            <h1 style="color: rgb(4, 0, 255);">Add a New Task</h1>
+        </div>
+
+        <div>
+            <form action="#" method="post">
+                
+                <div>
+                <label for="taskName">Task name:</label>
+                <input type="text" id="taskName" placeholder="Enter your task here" required><br>
+                </div>
+
+                <div>
+                <label for="dayOfWeek">Day of the Week</label>
+                <select>
+                    <option value="Monday">Monday</option>
+                    <option value="Tuesday">Tuesday</option>
+                    <option value="Wednesday">Wednesday</option>
+                    <option value="Thursday">Thursday</option>
+                    <option value="Friday">Friday</option>
+                    <option value="Saturday">Saturday</option>
+                    <option value="Sunday">Sunday</option>
+
+                </select> <br>
+                </div>
+
+                <div>
+                    <label for="Morning">Morning</label>
+                    <input type="radio" id="Morning" value="Morning" name="timeOfDay">
+                    <label for="Afternoon">Afternoon</label>
+                    <input type="radio" id="Afternoon" value="Afternoon" name="timeOfDay">
+                    <label for="Evening">Evening</label>
+                    <input type="radio" id="Evening" value="Evening" name="timeOfDay">
+                </div>
+
+                <div>
+                    <p>Priority:</p>
+                    
+                    <label for="Important">Important</label>
+                    <input type="checkbox" id="Important" value="Important" name="Prioritys"><br>
+                    <label for="Urgent">Urgent</label>
+                    <input type="checkbox" id="Urgent" value="Urgent" name="Prioritys"><br>
+                    <label for="Optional">Optional</label>
+                    <input type="checkbox" id="Optional" value="Optional" name="Prioritys">
+
+                </div>
+
+                <div>
+                <label for="notes">Notes:</label><br>
+                <textarea id="notes" name="notes" rows="4" cols="30" placeholder="Write additional details here"></textarea><br><br>
+                </div>
+
+                <div>
+                    <input type="reset">
+                    <input type="submit">
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </form>
+        </div>
+
 
 
 
