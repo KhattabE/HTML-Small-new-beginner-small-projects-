@@ -1,0 +1,112 @@
+#h1webtitle {
+    font-family: Verdana, arial;
+    color: rgb(255, 0, 0);
+    font-size: 1.5em;
+    font-weight: bolder;
+
+}
+
+
+.navigation {
+    font-family: Verdana, arial;
+    font-size: 0.7em;
+    color: rgb(255, 0, 0);
+    font-style: italic;
+}
+
+#headsection {
+    background-color: rgb(0, 255, 255);
+    padding: 5px;
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+}
+
+#h2aboutsectiontitle {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    margin-top: 20px;
+    font-weight: bolder;
+    text-align: center;
+    text-shadow: 2px 2px 5px black;
+    color: rgb(0, 255, 106);
+    border-bottom: solid;
+    border-width: 5px;
+    border-color: black;
+}
+
+#photoofme {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 5px 5px 5px;
+}
+
+#linkdin {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 0.5em;
+    color: rgb(255, 0, 0);
+    text-align: center;
+}
+
+
+#textaboutme {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 0.7em;
+    text-align: center;
+    margin-top: 20px;
+    border-style: dashed;
+    border-width: 2px;
+    background-color: rgb(0, 255, 255);
+    padding: 10px;
+
+
+}
+
+#tablerowone {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(0, 255, 255);
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    box-shadow: 1px 1px 5px;
+
+}
+
+#tablerowtwo {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    box-shadow: 1px 1px 5px;
+}
+
+#tablerowthree {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    box-shadow: 1px 1px 5px;
+}
+
+#footerid {
+    margin-top: 100px;
+    font-family: Verdana, arial;
+    font-size: 0.7em;
+    color: rgb(255, 0, 0);
+    font-style: italic;
+    background-color: rgb(0, 255, 255);
+    padding: 5px;
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+
+}
+
+#footinfo{
+    color: red;
+}
